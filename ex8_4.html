@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/livros.png">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Exemplo 8.4</title>
+</head>
+<body>
+    <img src="img/livros.png" alt="Pizzaria" class="normal">
+    <h1>Pizaria - Controle de pedidos</h1>
+    <form>
+        <P>Item do Pedido:
+            <input type="radio" name="produto" id="rbPizza" checked autofocus> Pizza
+            <input type="radio" name="produto" id="rbBebida"> Bebida
+            <span>Itme:</span>
+            <select id="inPizza">
+                <option value="media">Pizza Média</option>
+                <option value="grande">Pizza Grande</option>
+                <option value="familia">Pizza Família</option>
+            </select>
+            <select id="inBebida">
+                <option value="refri">Refrigerante Litro</option>
+                <option value="suco">Jarra de Suco</option>
+                <option value="agua">Água Mineral</option>
+            </select>
+        </P>
+        <p>
+            <input type="text" id="inDetelhes" class="detalhe">
+            <input type="submit" value="Adicionar">
+        </p>
+    </form>
+    <pre></pre>
+    <script src="../cap08/js/ex8_4.js"></script>
+</body>
+</html>
